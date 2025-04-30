@@ -5,7 +5,7 @@ import time
 cooldowns = {}
 
 # List of admin IDs (Replace with actual admin IDs)
-ADMINS = [7497210291, 8178216102]
+ADMINS = [8178216102, 8178216102]
 
 def handle_su_command(bot, message):
     user_id = message.from_user.id
