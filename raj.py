@@ -279,8 +279,8 @@ def channel_info(message):
 <code>╭───────────────────────
 │ 🔹 𝗥𝗘𝗟𝗔𝗧𝗘𝗗 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦  
 ╰───────────────────────</code>
-🔹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 𝗟𝗜𝗦𝗧: https://t.me/addlist/pDGo6Zh1hn4xMGE1  
-🔹 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣: https://t.me/+uvHHIaE-fGk2NzFl  
+🔹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 𝗟𝗜𝗦𝗧: https://t.me/rajaraj_05
+🔹 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣: https://t.me/rajaraj_05
 
 <code>╭───────────────────────
 │ 👤 𝗢𝗪𝗡𝗘𝗥 𝗖𝗢𝗡𝗧𝗔𝗖𝗧  
@@ -621,8 +621,8 @@ def help_command(message):
     bot.reply_to(message, help_text, parse_mode="HTML", disable_web_page_preview=True)
 
 # 𝗥𝗘𝗗𝗘𝗘𝗠 𝗦𝗬𝗦𝗧𝗘𝗠
-owners = ["6847432039"]
-LOGS_CHANNEL_ID = -1002409826126
+owners = ["8178216102"]
+LOGS_CHANNEL_ID = -1002374071862
 valid_redeem_codes = {}
 
 def is_user_allowed(user_id):
@@ -825,8 +825,8 @@ def start(message):
     bot.reply_to(message, response, parse_mode="HTML", disable_web_page_preview=True)
 
 # 𝗔𝗗𝗠𝗜𝗡 𝗨𝗦𝗘𝗥 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧
-LOGS_GROUP_CHAT_ID = -1002409826126
-owners = {"6847432039", "6847432039"}
+LOGS_GROUP_CHAT_ID = -1002374071862
+owners = {"8178216102"}
 
 @bot.message_handler(commands=["add"])
 def add_user_command(message):
