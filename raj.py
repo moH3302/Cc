@@ -327,7 +327,7 @@ def kill_command(message):
     bot.reply_to(message, help_text, parse_mode="HTML", reply_markup=keyboard)
 
 # 𝗖𝗥𝗘𝗗𝗜𝗧 𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧 𝗦𝗬𝗦𝗧𝗘𝗠
-ADMINS = ["7497210291"]
+ADMINS = ["8178216102"]
 CREDITS_FILE = "user_credits.json"
 
 def load_credits():
