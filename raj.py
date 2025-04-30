@@ -509,8 +509,8 @@ def kill_card(message):
 
     keyboard = InlineKeyboardMarkup()
     keyboard.add(
-        InlineKeyboardButton("🔥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/+QEVGbJGb6qBjNTA9"),
-        InlineKeyboardButton("👤 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/krishna_Carder")
+        InlineKeyboardButton("🔥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/rajaraj_05"),
+        InlineKeyboardButton("👤 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/rajaraj909")
     )
 
     bot.edit_message_text(final_message, chat_id=message.chat.id, message_id=progress_msg.message_id, parse_mode="HTML", reply_markup=keyboard)
@@ -541,7 +541,7 @@ def fetch_bin_data(bin_number):
     return bin_info
 
 # 𝗣𝗟𝗔𝗡𝗦 𝗖𝗢𝗠𝗠𝗔𝗡𝗗
-OWNER_LINK = "https://t.me/krishna_Carder"
+OWNER_LINK = "https://t.me/rajaraj909"
 
 def get_usdt_to_inr():
     try:
@@ -616,7 +616,7 @@ def help_command(message):
 👮‍♂️ 𝗨𝘀𝗲 /𝗮𝗱𝗺𝗶𝗻 𝗳𝗼𝗿 𝗔𝗱𝗺𝗶𝗻 𝗠𝗲𝗻𝘂  
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━  
-<code>🚀 ���𝗥𝗜𝗦𝗛𝗡𝗔 𝗖𝗔𝗥𝗗𝗘𝗥𝗦 - 𝗩𝗜𝗣 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗘 🔥</code>
+<code>🚀 𝗖𝗔𝗥𝗗𝗘𝗥𝗦 - 𝗩𝗜𝗣 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗘 🔥</code>
 """
     bot.reply_to(message, help_text, parse_mode="HTML", disable_web_page_preview=True)
 
@@ -736,8 +736,8 @@ def send_broadcast(message):
 
     keyboard = InlineKeyboardMarkup()
     keyboard.add(
-        InlineKeyboardButton("👑 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/krishna_Carder"),
-        InlineKeyboardButton("🔥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/+QEVGbJGb6qBjNTA9")
+        InlineKeyboardButton("👑 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/rajaraj909"),
+        InlineKeyboardButton("🔥 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/rajaraj_05")
     )
 
     success_count = 0
